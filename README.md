@@ -6,7 +6,7 @@ Merhaba! Bu Projede Angular kullanarak bir blog sitesi projesi ortaya çıkarmay
 ---
 
 ## Projedeki Teknolojiler
-[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,ts,js,angular)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,ts,js,angular)](https://skillicons.dev)
 
 ---
 
