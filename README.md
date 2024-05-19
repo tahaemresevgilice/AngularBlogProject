@@ -1,16 +1,12 @@
 
-# Php Wordpress BootW Tema
+# Angular Blog Projesi
 
-Merhaba! Bootstrap tabanlı dinamik bir WordPress projesiyle karşınızdayım. Home, About, Portfolio ve Contact sayfalarıyla zenginleştirilmiş, tamamen WordPress uyumlu BootW teması kullanılarak tasarlandı. Modern tasarım ve kolay içerik yönetimi için ideal bir seçim!---
-
-## Proje Açıklaması
-
-Bu proje, Php kullanılarak oluşturulmuş bir Wordpress tema tasarımı içerir. Merhaba! Bootstrap tabanlı dinamik bir WordPress projesiyle karşınızdayım. Home, About, Portfolio ve Contact sayfalarıyla zenginleştirilmiş, tamamen WordPress uyumlu BootW teması kullanılarak tasarlandı. Modern tasarım ve kolay içerik yönetimi için ideal bir seçim!
+Merhaba! Bu Projede Angular kullanarak bir blog sitesi projesi ortaya çıkarmaya çalışıyorum.
 
 ---
 
 ## Projedeki Teknolojiler
-[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,js,angular,ts)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,ts,js,angular)](https://skillicons.dev)
 
 ---
 
