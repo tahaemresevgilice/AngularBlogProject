@@ -10,7 +10,7 @@ Bu proje, Php kullanılarak oluşturulmuş bir Wordpress tema tasarımı içerir
 ---
 
 ## Projedeki Teknolojiler
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,bootstrap,angular,ts)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,js,angular,ts)](https://skillicons.dev)
 
 ---
 
