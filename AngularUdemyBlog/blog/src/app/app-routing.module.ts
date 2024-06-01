@@ -8,7 +8,24 @@ import { MainLayoutComponent } from './layout/main-layout/main-layout.component'
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 
 const routes: Routes = [
-
+{
+  path:"",
+  component:MainLayoutComponent,
+  children:[
+    {
+      path:"",
+      component:HomeComponent
+    },
+    {
+      path:"hakkimizda",
+      component:AboutMeComponent
+    },
+    {
+      path:"iletisim",
+      component:ContactComponent
+    }
+  ]
+}
 ];
 
 @NgModule({
