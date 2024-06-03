@@ -25,6 +25,10 @@ const routes: Routes = [
       component:ContactComponent
     }
   ]
+},
+{
+  path:"admin",
+  component:AdminLayoutComponent
 }
 ];
 
