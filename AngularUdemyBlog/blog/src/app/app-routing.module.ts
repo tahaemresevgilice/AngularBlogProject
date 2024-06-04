@@ -17,7 +17,7 @@ const routes: Routes = [
       component:HomeComponent
     },
     {
-      path:"hakkimizda",
+      path:"hakkimda",
       component:AboutMeComponent
     },
     {
