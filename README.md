@@ -2,11 +2,12 @@
 # Angular Blog Projesi
 
 Merhaba! Bu Projede Angular kullanarak bir blog sitesi projesi ortaya çıkarmaya çalışıyorum.
+Projede Anasayfa,İletişim ve Hakkımda sayfalarının componentlerini oluşturup route işlemlerini gerçekleşitrim.
 
 ---
 
 ## Projedeki Teknolojiler
-[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,ts,js,angular)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,js,ts,angular,dotnet)](https://skillicons.dev)
 
 ---
 
