@@ -2,7 +2,7 @@
 # Angular Blog Projesi
 
 Merhaba! Bu Projede Angular kullanarak bir blog sitesi projesi ortaya çıkarmaya çalışıyorum.
-Projede Anasayfa,İletişim ve Hakkımda sayfalarının componentlerini oluşturup route işlemlerini gerçekleşitrim.
+Son Değişiklik: Anasayfa,İletişim ve Hakkımda sayfalarının componentlerini oluşturup route işlemlerini gerçekleşitrim ve Main-layout component'ini düzenledim.
 
 ---
 
