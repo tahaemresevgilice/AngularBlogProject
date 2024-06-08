@@ -6,18 +6,16 @@ import { Category } from '../models/category';
   providedIn: 'root'
 })
 export class CategoryService {
-private apiUrl:string="http://localhost:5131/api/Categories";
-constructor(private httpClient:HttpClient) {}
+  private apiUrl: string = "http://localhost:5131/api/Categories";
 
-public getCategories()
-{
-  return.this.httpClient.get<Category[]>(this.apiUrl);
-} 
+  constructor(private httpClient: HttpClient) {}
 
-public getCategorybyId(id:number)
-{
-  let url = `$(this.apiUrl)/$(id)`;
-  return.this.httpClient.get<Category>(url);
-}
+  public getCategories() {
+    return this.httpClient.get<Category[]>(this.apiUrl);
+  }
 
+  public getCategorybyId(id: number) {
+    let url = `${this.apiUrl}/${id}`;
+    return this.httpClient.get<Category>(url);
+  }
 }

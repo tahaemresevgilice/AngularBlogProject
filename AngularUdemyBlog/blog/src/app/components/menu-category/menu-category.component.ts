@@ -1,0 +1,20 @@
+import { Component } from '@angular/core';
+import { CategoryService } from '../../services/category.services';
+import { Category } from 'src/app/models/category';
+
+@Component({
+  selector: 'app-menu-category',
+  templateUrl: './menu-category.component.html',
+  styleUrl: './menu-category.component.css'
+})
+export class MenuCategoryComponent {
+  categories:Category[]=[];
+  constructor(private categoryService:CategoryService) {}
+
+  ngOnInit() {
+    this.categoryService.getCategories().subscribe(data=>{
+      this.categories=data;
+  })
+  }
+
+}
