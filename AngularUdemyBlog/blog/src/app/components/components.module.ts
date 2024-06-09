@@ -6,7 +6,7 @@ import { MenuCategoryComponent } from './menu-category/menu-category.component';
 
 @NgModule({
   declarations: [
-    MenuCategoryComponent
+    MenuCategoryComponent,
   ],
   imports: [
     CommonModule,
@@ -16,4 +16,5 @@ import { MenuCategoryComponent } from './menu-category/menu-category.component';
     MenuCategoryComponent
   ]
 })
-export class ComponentsModule { }
+export class ComponentsModule
+{ }

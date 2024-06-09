@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CategoryService } from '../../services/category.service';
 import { Category } from '../../models/category';
 
@@ -7,14 +7,14 @@ import { Category } from '../../models/category';
   templateUrl: './menu-category.component.html',
   styleUrl: './menu-category.component.css'
 })
-export class MenuCategoryComponent {
-  categories:Category[]=[];
-  constructor(private categoryService:CategoryService) {}
+export class MenuCategoryComponent implements OnInit {
+  categories: Category[] = [];
+
+  constructor(private categoryService: CategoryService) {}
 
   ngOnInit() {
-    this.categoryService.getCategories().subscribe(data=>{
-      this.categories=data;
-  })
+    this.categoryService.getCategories().subscribe(data => {
+      this.categories = data;
+    });
   }
-
 }
