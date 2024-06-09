@@ -3,7 +3,7 @@
 
 Merhaba! Bu Projede Angular kullanarak bir blog sitesi projesi ortaya çıkarmaya çalışıyorum.
 
-Son Değişiklik: Anasayfa,İletişim ve Hakkımda sayfalarının componentlerini oluşturup route işlemlerini gerçekleşitrim ve Main-layout component'ini düzenledim ve böylrce AppModule dosyası daha sade oldu.
+Son Değişiklik: Anasayfa,İletişim ve Hakkımda sayfalarının componentlerini oluşturup route işlemlerini gerçekleşitrim ve Main-layout component'ini düzenledim ve böylece AppModule dosyası daha sade oldu.
 
 ---
 
