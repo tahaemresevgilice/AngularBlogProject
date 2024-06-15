@@ -8,7 +8,7 @@ Son Değişiklik: Anasayfa,İletişim ve Hakkımda sayfalarının componentlerin
 ---
 
 ## Projedeki Teknolojiler
-[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,js,ts,angular,npm,dotnet)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,js,ts,angular,dotnet)](https://skillicons.dev)
 
 ---
 
