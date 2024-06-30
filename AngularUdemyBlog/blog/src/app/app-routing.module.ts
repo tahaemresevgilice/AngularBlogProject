@@ -6,6 +6,7 @@ import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
+import { CategoriesComponent } from './components/categories/categories.component';
 
 const routes: Routes = [
 {
@@ -27,8 +28,14 @@ const routes: Routes = [
   ]
 },
 {
-  path:"admin",
-  component:AdminLayoutComponent
+  path:"Admin",
+  component:AdminLayoutComponent,
+  children:[
+    {
+      path:"",
+      component:CategoriesComponent
+    }
+  ]
 }
 ];
 
