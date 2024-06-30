@@ -8,14 +8,14 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item" [ngClass]="{'active': pageActive === 1}">
-          <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item" [ngClass]="{'active': pageActive === 2}">
-          <a class="nav-link" routerLink="/hakkimda">Hakkımda <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/hakkimda" routerLinkActive="active">Hakkımda <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item" [ngClass]="{'active': pageActive === 3}">
-          <a class="nav-link" routerLink="/iletisim">İletşim <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/iletisim" routerLinkActive="active">İletşim <span class="sr-only">(current)</span></a>
         </li>
       </ul>
       <form class="d-flex">

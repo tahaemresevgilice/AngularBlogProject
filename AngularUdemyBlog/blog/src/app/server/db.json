@@ -1,0 +1,14 @@
+{
+  "Categories": [{
+    "id": 1,
+    "name": "Asp.Net Core"
+  },
+  {
+    "id": 2,
+    "name": "Angular"
+  },
+  {
+    "id": 3,
+    "name": "Asp.net MVC"
+  }]
+}
